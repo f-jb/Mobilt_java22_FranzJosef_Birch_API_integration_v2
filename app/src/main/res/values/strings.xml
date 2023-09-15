@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mobilt_java22_FranzJosef_Birch_API_integration_v2</string>
+    <string name="loading">Loading</string>
+    <string name="loading_failed">Failed to load</string>
+    <string name="back_button">Back</string>
+    <string name="facts">Facts</string>
+    <string name="excuse">Excuse</string>
+</resources>

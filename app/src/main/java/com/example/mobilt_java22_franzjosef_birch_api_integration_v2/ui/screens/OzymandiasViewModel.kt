@@ -23,15 +23,13 @@ sealed interface OzymandiasUiState{
     object Error: OzymandiasUiState
     object Loading : OzymandiasUiState
 }
-class OzymandiasViewModel(private val factRepository: FactRepository, val excuseRepository: ExcuseRepository): ViewModel(){
+class OzymandiasViewModel(private val factRepository: FactRepository, private val excuseRepository: ExcuseRepository): ViewModel(){
     var uiState: OzymandiasUiState by mutableStateOf(OzymandiasUiState.Loading)
         private set
 
-    //data class Success(val fact: Fact, val typeOfFact: String): OzymandiasUiState
 
     init {
-
-        getTodayFact()
+            getTodayFact()
     }
     fun getRandomExcuse(){
         viewModelScope.launch {

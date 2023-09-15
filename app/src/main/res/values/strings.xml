@@ -5,4 +5,8 @@
     <string name="back_button">Back</string>
     <string name="facts">Facts</string>
     <string name="excuse">Excuse</string>
+    <string name="welcome">Welcome</string>
+    <string name="make_your_selection">Make your selection</string>
+    <string name="useless_facts">Useless facts</string>
+    <string name="what_s_your_excuse">What\'s your excuse?</string>
 </resources>
